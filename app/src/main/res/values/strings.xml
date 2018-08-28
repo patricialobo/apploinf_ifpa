@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Loinf IFPA</string>
+    <string name="title_activity_maps">Map</string>
+
+    // Nome dos textViews do xml do painel inicial
+    <string name="pontos_principais">Pontos Principais</string>
+    <string name="ler_qrcode">Ler Qrcode</string>
+    <string name="buscar_mapa">Buscar no Mapa</string>
+    <string name="noticias">Notícias</string>
+
+    //Nome dos botões do item pontos principais do xml pontos_principais
+    <string name="txt_itens">Escolha um dos itens listados e navegue pelos pontos principais do IFPA</string>
+    <string name="btn_auditorio">Auditório</string>
+    <string name="btn_biblioteca">Biblioteca</string>
+    <string name="btn_documentos">Documentos e Informação</string>
+    <string name="btn_refeitorio">Refeitório</string>
+
+    //nome dos botões do ImageSwitcher do xml do pontos_principais_imageswitcher
+    <string name="btn_avancar">Avançar</string>
+    <string name="btn_anterior">Anterior</string>
+
+    //nome do textView e do botão do xml ler_qrcode
+    <string name="txt_scan">Posicione a câmera do seu celular para a leitura do código QR </string>
+    <string name="btn_scan">SCAN</string>
+
+
+    //nome do textView do xml notificacao
+    <string name="txt_noticiais">Noticias</string>
+    <string name="title_activity_noticiais_web">NoticiaisWebActivity</string>
+    <string name="title_activity_mapa__loinf">Map</string>
+
+</resources>
+
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/loinf" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/txt_itens"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_auditorio"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/btn_auditorio"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp" />
+
+    <Button
+        android:id="@+id/btn_biblioteca"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/btn_biblioteca"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_auditorio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+
+
+    <Button
+        android:id="@+id/btn_documentos"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/btn_documentos"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/btn_biblioteca"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/btn_refeitorio"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/btn_refeitorio"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_documentos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

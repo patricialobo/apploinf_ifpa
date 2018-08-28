@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundFloating"
+    android:orientation="vertical"
+    tools:context="com.example.patri.apploinf_ifpa.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/loinf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+
+                    android:layout_width="190dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_explore_white_24dp" />
+
+                    <TextView
+                        android:id="@+id/pontos_principais"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@android:color/holo_blue_light"
+                        android:onClick="selecionarOpcao"
+                        android:padding="8dp"
+                        android:text="Locais Principais"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="190dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_room_white_24dp" />
+
+                    <TextView
+                        android:id="@+id/mapa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@android:color/holo_blue_light"
+                        android:onClick="selecionarOpcao"
+                        android:padding="8dp"
+                        android:text="Buscar no Mapa"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            // 2
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_code_white_24dp" />
+
+                    <TextView
+                        android:id="@+id/ler_qrcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@android:color/holo_blue_light"
+                        android:onClick="selecionarOpcao"
+                        android:padding="8dp"
+                        android:text="Ler Qrcode"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_event_white_24dp" />
+
+                    <TextView
+                        android:id="@+id/noticias"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:background="@android:color/holo_blue_light"
+                        android:onClick="selecionarOpcao"
+                        android:padding="8dp"
+                        android:text="Notícias"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
